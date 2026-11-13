@@ -1,0 +1,13 @@
+# Shows the current output device and its volume; the page switches outputs
+# and inputs, mixes per-app volume and sets a calls device. Ctrl+Alt+A
+# cycles through outputs.
+id = "audio-switch"
+name = "Audio Switch"
+icon = "speaker-high"
+size = "wide"
+run = ["python", "main.py"]
+hotkey = "ctrl+alt+KeyA"
+page_size = [620, 440]
+description = "The tile shows the current output device with a volume dial. The page switches outputs and inputs with a click, with live level meters, a per-app volume mixer and an optional separate device for calls. Ctrl+Alt+A cycles outputs, optionally taking the matching mic along."
+author = "Nook"
+version = "2.0.0"
